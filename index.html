@@ -6,11 +6,13 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Fapor</title>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@500;600&display=swap"
+          rel="stylesheet">
     <script src="https://kit.fontawesome.com/83d1986101.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.default.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media-queries/media.css">
 
 </head>
 
@@ -19,15 +21,24 @@
 <header>
     <div class="container d-flex">
         <a class="logo" href="#" target="_blank" title="logo"><img src="images/logo_03.png" alt="logo">Fapor</a>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li class="active"><a href="#">service</a></li>
-                <li><a href="#">portfolio</a></li>
-                <li><a href="#">contact</a></li>
-            </ul>
-        </nav>
+
+        <div class="wrapper">
+            <input type="checkbox" id="check-menu">
+            <label class="burger" for="check-menu">MENU</label>
+            <div class="burger-line first"></div>
+            <div class="burger-line second"></div>
+            <div class="burger-line third"></div>
+            <div class="burger-line fourth"></div>
+            <nav class="main-menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li class="active"><a href="#">service</a></li>
+                    <li><a href="#">portfolio</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </div>
 </header>
 
@@ -90,24 +101,27 @@
 
 <section class="clients">
 
-        <h3>WHAT OUR CLIENTS SAY</h3>
+    <h3>WHAT OUR CLIENTS SAY</h3>
     <div class="container">
         <div class="owl-carousel">
-            <div> <img src="images/client_03.png" alt="client">
-                <p class="comment">Praesent tincidunt molestie libero mollis porta. Faucibus leo, ac aliquet magna. Vivamus
+            <div><img src="images/client_03.png" alt="client">
+                <p class="comment">Praesent tincidunt molestie libero mollis porta. Faucibus leo, ac aliquet magna.
+                    Vivamus
                     ullamcorper mollis leo, at sagittis mi pellentesque quis. Praesent nec elit tristique.</p>
                 <p class="name">Larry Jane</p>
-                <p class="position">General Manager</p> </div>
-            <div> <img src="images/client_03.png" alt="client">
-                <p class="comment">Praesent tincidunt molestie libero mollis porta. Faucibus leo, ac aliquet magna. Vivamus
+                <p class="position">General Manager</p></div>
+            <div><img src="images/client_03.png" alt="client">
+                <p class="comment">Praesent tincidunt molestie libero mollis porta. Faucibus leo, ac aliquet magna.
+                    Vivamus
                     ullamcorper mollis leo, at sagittis mi pellentesque quis. Praesent nec elit tristique.</p>
                 <p class="name">Larry Jane</p>
-                <p class="position">General Manager</p> </div>
-            <div> <img src="images/client_03.png" alt="client">
-                <p class="comment">Praesent tincidunt molestie libero mollis porta. Faucibus leo, ac aliquet magna. Vivamus
+                <p class="position">General Manager</p></div>
+            <div><img src="images/client_03.png" alt="client">
+                <p class="comment">Praesent tincidunt molestie libero mollis porta. Faucibus leo, ac aliquet magna.
+                    Vivamus
                     ullamcorper mollis leo, at sagittis mi pellentesque quis. Praesent nec elit tristique.</p>
                 <p class="name">Larry Jane</p>
-                <p class="position">General Manager</p> </div>
+                <p class="position">General Manager</p></div>
 
         </div>
 
@@ -148,7 +162,7 @@
 <footer>
     <div class="container d-flex">
         <div>
-        <p>© 2016 Fapor by Respotheme</p></div>
+            <p>© 2016 Fapor by Respotheme</p></div>
         <div class="soc">
             <a href="#" target="_blank" title=""><i class="fab fa-facebook-f"></i></a>
             <a href="#" target="_blank" title=""><i class="fab fa-twitter"></i></a>
@@ -158,7 +172,8 @@
 
     </div>
 </footer>
-<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 <script src="js/owl.carousel.js"></script>
 <script src="js/script.js"></script>
 </body>

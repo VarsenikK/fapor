@@ -89,6 +89,14 @@ header nav ul li:hover:after, header nav ul li.active:after{
     width: 100%;
 }
 
+/*....BURGER MENU...*/
+.wrapper input {
+    display: none;
+}
+
+.wrapper label {
+    display: none;
+}
 
 /*...section about...*/
 .about {
@@ -235,7 +243,7 @@ h2:after{
     margin: auto;
 
 }
-.d-flex{
+.info .d-flex{
     justify-content: space-between;
 }
 .info div{
